@@ -1,0 +1,116 @@
+#container{
+    display:flex;   
+  width:100%;
+    background-color:black;
+      
+  }  
+#side{
+width:13%;
+   background-color:black	;
+color:white;
+ padding-left:20px;
+
+     
+}
+#view{
+width:87%;
+  background-color:black; 
+  color:white;
+  
+  } 
+h3{
+line-height:5px;} 
+div{
+margin-bottom:10px;	
+  
+}     
+h2{
+    margin-top:0px;
+}
+#sign{
+      color:blue;
+      border: 10px;
+      border-color: white;
+      width: 50px;
+      border-radius: 5px;
+    }
+#header{
+     display:flex;
+  
+  }
+.head{
+margin-right:20px;
+ margin-top:2px;	
+ background-color:rgb(111, 108, 108);
+ padding-top: 2px;
+ height: 23px;
+ border-radius: 5px;
+ padding-left: 3px;
+ width: 100%;
+ font-size: 12px;
+ text-align: center;
+  }
+#all{
+   background-color:white;
+color:black;
+  border-radius:2px;
+  width:35px;
+  height:25px;
+  text-align: center;
+}
+#home{
+  width: 180px;
+          height: 29px;
+          border-radius: 7px;
+          background-color:rgb(111, 108, 108);
+}
+#search{
+   background-color:black;
+  text-align:center;
+}
+
+.menu{
+  height: 29px;
+}
+
+.menu:hover{
+         
+          width: 180px;
+          height: 29px;
+          border-radius: 7px;
+          
+         cursor: pointer;
+          background-color:rgb(111, 108, 108);
+    
+}
+
+
+i{
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#youtube{
+  margin-right:2px;
+  
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#doremon{
+  height: 22%;
+  width:27%;
+  background-image: url('doremon.webp');
+  background-size: cover;
+  border-radius: 5px;
+  
+}
+.videos:hover{
+  transform:scale(0.5);
+  transition: 0.1s;
+   transform: translateX(2px);
+   transform: translateY(-2px);   
+   box-shadow: 2px 2px 20px 2px rgb(195, 183, 183);
+}
+#row1{
+  display: flex;
+}
