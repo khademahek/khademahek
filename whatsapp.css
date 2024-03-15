@@ -20,13 +20,14 @@
     height: 50px;
     background-color:  rgb(59, 57, 57);
     margin-bottom: 2px;
- 
+    display: flex;
 }
 #search{
     height: 29px;
     background-color: rgb(59, 57, 57);
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 4px;
+    display: flex;
 }
 .chat{
     height: 60px;
@@ -37,17 +38,88 @@
    
    
 }
-.dp{
+#dp1{
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    color: white;
-    
-    margin: 10px 7px 6px 8px;
+     margin: 10px 7px 6px 8px;
     position: absolute;
-    background-image:initial;
+    background-image:url('dp1.jpg');
     background-size: cover;
 }
+#dp2{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+     margin: 10px 7px 6px 8px;
+    position: absolute;
+    background-image:url('chimmy.jpg');
+    background-size: cover;
+}
+#dp3{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+     margin: 10px 7px 6px 8px;
+    position: absolute;
+    background-image:url('kookie.jpg');
+    background-size: cover;
+}
+#dp4{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+     margin: 10px 7px 6px 8px;
+    position: absolute;
+    background-image:url('koya.jpg');
+    background-size: cover;
+}
+#dp5{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+     margin: 10px 7px 6px 8px;
+    position: absolute;
+    background-image:url('mang.jpg');
+    background-size: cover;
+}
+#dp6{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+     margin: 10px 7px 6px 8px;
+    position: absolute;
+    background-image:url('rj.jpg');
+    background-size: cover;
+}
+#dp7{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+     margin: 10px 7px 6px 8px;
+    position: absolute;
+    background-image:url('shooky.jpg');
+    background-size: cover;
+}
+#dp8{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+     margin: 10px 7px 6px 8px;
+    position: absolute;
+    background-image:url('tata.pjg.jpg');
+    background-size: cover;
+}
+#dp9{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+     margin: 10px 7px 6px 8px;
+    position: absolute;
+    background-image:url('bt21.jpg');
+    background-size: cover;
+}
+
 p{
     margin-left: 60px;
      line-height: 2px;
@@ -75,4 +147,39 @@ p{
     top: 18px;
     font-size: 10px;
     text-align: center;
+}
+#person{
+          font-size: 30px;
+          margin-left: 10px;
+         padding-top: 5px;
+}
+#bright{
+    font-size: 20px;
+    margin-left: 195px;
+   padding-top: 15px;
+
+}
+#circle{
+    font-size: 20px;
+    margin-left: 20px;
+   padding-top: 15px;
+ 
+}
+#message{
+    font-size: 20px;
+    margin-left: 20px;
+   padding-top: 15px;
+
+}
+#dot{
+    font-size: 20px;
+    margin-left: 20px;
+   padding-top: 15px;
+
+}
+#mg{
+    font-size: 15px;
+    margin-left: 20px;
+    padding-top: 8px;
+    margin-right: 10px;
 }
