@@ -1,12 +1,15 @@
 * {
     margin: 0;
     padding: 0;
+    
+
 }
 
 #container {
     display: flex;
     width: 100%;
     background-color: black;
+    overflow: hidden;
 
 }
 
@@ -15,6 +18,8 @@
     background-color: black;
     color: white;
     padding-left: 20px;
+   position: fixed;
+   margin: 2px;
 
 
 }
@@ -30,9 +35,9 @@
 }
 
 #sign {
-    color: blue;
+    color: rgba(41, 41, 233, 0.784);
 
-
+     margin-top: 10px;
     width: 100px;
     border-radius: 20px;
     border: solid thin rgb(61, 61, 62);
@@ -55,6 +60,7 @@ i {
     width: 87%;
     background-color: black;
     color: white;
+    margin-left: 200px;
 
 
 }
@@ -63,21 +69,15 @@ i {
     margin-right: 20px;
     margin-top: 2px;
     background-color: rgb(109, 103, 103);
-    padding-top: 2px;
+    padding: 5px 10px;
     height: 23px;
     border-radius: 5px;
-    padding-left: 3px;
-    width: 100%;
     font-size: 12px;
     text-align: center;
 }
 
 .head:hover {
-
-    width: 100%;
-    height: 23px;
     border-radius: 7px;
-
     cursor: pointer;
     background-color: rgb(82, 80, 80);
 
@@ -86,8 +86,7 @@ i {
 
 #header {
     display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
+   
 
 }
 
@@ -118,6 +117,7 @@ i {
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding-top: 8px;
 
 }
 
@@ -158,6 +158,62 @@ i {
 
 img{
     border-radius: 10px;
-    width: 30%;
     margin: 30px 10px 0 30px;
+}
+.image{
+    border-radius: 10px;
+    width: 95%;
+    margin: 30px 10px 0 30px;
+
+
+}
+.image:hover{
+    border-radius: 0;
+    width: 96%;
+
+
+
+}
+.channel{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+
+}
+.bt{
+    display: flex;
+    position: relative;
+    bottom: 10px;
+}
+h3{
+    position: relative;
+    top: 22px;
+
+}
+p{
+    color: rgb(215, 215, 207);
+    font-size: 14px;
+    position: relative;
+    left: 80px;
+    bottom: 15px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#show{
+
+    position: relative;
+    bottom: 2%;
+    left: 30%;
+   border: thin solid aliceblue;
+    border-radius: 20px;
+    padding: 0.5% ;
+    width: 30%;
+    padding-left: 15%;
+    background-color: black;
+}
+.overflow{
+    overflow-y: auto;
+  width: unset;
 }
