@@ -9,8 +9,9 @@
     display: flex;
     width: 100%;
     background-color: black;
-    overflow: hidden;
-
+   overflow: hidden;
+ overflow-x: hidden;
+   
 }
 
 #side {
@@ -18,9 +19,10 @@
     background-color: black;
     color: white;
     padding-left: 20px;
-   position: fixed;
+  
    margin: 2px;
-
+   height:740px;
+ 
 
 }
 
@@ -55,14 +57,22 @@ i {
     display: flex;
     align-items: center;
 }
+#Youtube{
+    margin-bottom: 20px;
+}
 
 #view {
     width: 87%;
     background-color: black;
     color: white;
-    margin-left: 200px;
-
-
+}
+#view:hover{
+    width: 87%;
+    overflow-y: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+  
 }
 
 .head {
@@ -86,6 +96,7 @@ i {
 
 #header {
     display: flex;
+    margin-left: 100px;
    
 
 }
@@ -158,18 +169,20 @@ i {
 
 img{
     border-radius: 10px;
-    margin: 30px 10px 0 30px;
+    margin: 30px 10px 0 0px;
+    height: 280px;
+    width: 400px;
 }
 .image{
     border-radius: 10px;
-    width: 95%;
-    margin: 30px 10px 0 30px;
-
+   
+   
 
 }
 .image:hover{
     border-radius: 0;
-    width: 96%;
+    width: 402px;
+   
 
 
 
@@ -200,11 +213,19 @@ p{
 #grid{
     display: grid;
     grid-template-columns: auto auto auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+   
+   
 }
-#show{
 
+   
+   
+
+#show{
+   margin-top: 10px;
     position: relative;
-    bottom: 2%;
+    bottom: 30px;
     left: 30%;
    border: thin solid aliceblue;
     border-radius: 20px;
@@ -213,7 +234,11 @@ p{
     padding-left: 15%;
     background-color: black;
 }
-.overflow{
+#over{
+  height: 740px;
+ 
+}
+#over:hover{
+    position: fixed;
     overflow-y: auto;
-  width: unset;
 }
