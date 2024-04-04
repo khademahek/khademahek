@@ -19,15 +19,26 @@
     background-color: black;
     color: white;
     padding-left: 20px;
-  
-   margin: 2px;
-   height:740px;
+    margin: 2px;
+    height:740px;
  
 
+}
+#sideover{
+    
+    width:13%;
+    height: 720px;
+    margin-top: 50px;
+    position: fixed;
+}
+#sideover:hover{
+    overflow-y: auto;
+    width:13%;
 }
 
 #first {
     border-bottom: solid thin rgb(200, 195, 195);
+    margin-top: 50px;
 }
 
 #second {
@@ -37,7 +48,7 @@
 }
 
 #sign {
-    color: rgba(41, 41, 233, 0.784);
+    color: rgba(70, 70, 251, 0.784);
 
      margin-top: 10px;
     width: 100px;
@@ -58,7 +69,11 @@ i {
     align-items: center;
 }
 #Youtube{
-    margin-bottom: 20px;
+   background-color: black;
+    position: fixed;
+    padding-bottom: 50px;
+    padding-right: 50px;
+ 
 }
 
 #view {
@@ -68,10 +83,7 @@ i {
 }
 #view:hover{
     width: 87%;
-    overflow-y: auto;
-    overflow: scroll;
-    overflow-x: hidden;
-    
+   
   
 }
 
@@ -97,7 +109,7 @@ i {
 #header {
     display: flex;
     margin-left: 100px;
-   
+
 
 }
 
@@ -130,6 +142,7 @@ i {
     border-bottom-right-radius: 20px;
     padding-top: 8px;
 
+    
 }
 
 #sr {
@@ -215,12 +228,11 @@ p{
     grid-template-columns: auto auto auto;
     overflow-y: auto;
     overflow-x: hidden;
+    margin-top: 90px;
    
    
 }
-
-   
-   
+  
 
 #show{
    margin-top: 10px;
@@ -235,10 +247,7 @@ p{
     background-color: black;
 }
 #over{
-  height: 740px;
- 
-}
-#over:hover{
-    position: fixed;
-    overflow-y: auto;
+background-color: black;
+position: fixed;
+
 }
