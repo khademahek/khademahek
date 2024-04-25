@@ -13,6 +13,7 @@
     width: 30%;
     background-color: black;
     padding: 10px;
+   height: 700px;
    
   
 }
@@ -42,6 +43,7 @@
 }
 #main{
     width: 70%;
+   overflow-y: hidden;
 }
 img{
     border-radius: 50%;
